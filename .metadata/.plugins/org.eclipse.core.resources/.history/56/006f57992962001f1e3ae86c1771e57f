@@ -1,0 +1,10 @@
+package com.LoopDemos;
+
+public class D07Pyramid1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
