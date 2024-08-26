@@ -1,0 +1,14 @@
+package com.FunctionDemos;
+
+public class D03PassingParameters {
+
+	public static void main(String[] args) {
+		
+
+	}
+	public static void calculateSqure(int no)
+	{
+		int ans = no * no;
+		System.out.println("Squre of " + no + ": " + ans);
+	}
+}

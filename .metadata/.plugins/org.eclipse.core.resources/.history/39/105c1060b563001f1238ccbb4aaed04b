@@ -1,0 +1,15 @@
+package com.FunctionDemos;
+
+public class D01FunctionDemo1 {
+
+	public static void main(String[] args) {
+		sayHello();
+
+	}
+
+	//Return type -> The data type of value which is supposed to be returned from function
+	public static void sayHello()
+	{
+		System.out.println("Hello from function!!!");
+	}
+}
