@@ -1,0 +1,15 @@
+package com.ArrayDemos;
+
+public class D01ArrayDecleration {
+
+	public static void main(String[] args) {
+		int[] marks = new int[5];
+
+		marks[0] = 85;
+		marks[1] = 95;
+		marks[2] = 74;
+		marks[3] = 68;
+		marks[4] = 76;
+	}
+
+}

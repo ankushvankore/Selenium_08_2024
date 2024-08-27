@@ -1,0 +1,35 @@
+package com.FunctionDemos;
+
+public class D07MethodOverloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void calculateAddition1(int n1, int n2)
+	{
+		int ans = n1 + n2;
+		System.out.println("Addition: " + ans);
+	}
+	public static void calculateAddition2(int n1, int n2, int n3)
+	{
+		int ans = n1 + n2 + n3;
+		System.out.println("Addition: " + ans);
+	}
+	public static void calculateAddition3(double n1, double n2)
+	{
+		double ans = n1 + n2;
+		System.out.println("Addition: " + ans);
+	}
+	public static void calculateAddition4(int n1, double n2)
+	{
+		double ans = n1 + n2;
+		System.out.println("Addition: " + ans);
+	}
+	public static void calculateAddition3(double n1, int n2)
+	{
+		double ans = n1 + n2;
+		System.out.println("Addition: " + ans);
+	}
+}
