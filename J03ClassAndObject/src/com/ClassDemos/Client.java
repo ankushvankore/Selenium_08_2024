@@ -8,6 +8,7 @@ public class Client {
 		d1.setDay(28);
 		d1.setMonth("August");
 		d1.setYear(2024);
+		//d1.no = 9;
 		
 		d1.displayDate();
 		int d = d1.getDay();
