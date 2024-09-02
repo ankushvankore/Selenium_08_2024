@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.ClassDemos.MyDate"/>
     <fullyQualifiedTypeName name="com.InheritanceDemos.Manager"/>
+    <fullyQualifiedTypeName name="com.InheritanceDemos.Employee"/>
 </qualifiedTypeNameHistroy>
