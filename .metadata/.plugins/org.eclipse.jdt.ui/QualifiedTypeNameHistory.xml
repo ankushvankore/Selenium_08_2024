@@ -2,9 +2,14 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.ClassDemos.MyDate"/>
     <fullyQualifiedTypeName name="com.InheritanceDemos.Manager"/>
     <fullyQualifiedTypeName name="com.InheritanceDemos.Employee"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.ArrayAssignments.D01OddEvenCount"/>
+    <fullyQualifiedTypeName name="com.AbstractDemos.Rectangle"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="com.AbstractDemos.Printable"/>
+    <fullyQualifiedTypeName name="com.AbstractDemos.Circle"/>
 </qualifiedTypeNameHistroy>
