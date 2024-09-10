@@ -1,0 +1,32 @@
+1. Launching blank Browser: Create object of WebDriver interface.
+2. get() : Will open the url
+3. driver.manage().window().maximize() : Will maximize the window
+4. close() : Will close the current browser window
+5. getTitle() : Will give the title of the page (String)
+6. getCurrentUrl : Will give the URL of the page (String)
+7. getPageSource : Will return rendered html of the page (String)
+8. findElement: Will return the control on the page (WebElement)
+
+WebElement: 
+	Interface in Selemium
+	Represents any control on the page
+
+
+
+Locators:
+	Are the way to locate any control / WebElement on the page
+
+1. Name
+2. Id
+3. ClassName
+4. CssSelector
+5. Xpath
+6. LinkText
+7. PartialLinkText
+8. TagName
+9. RelativeLocator
+
+
+
+Common Exceptions
+1. InvalidArgumentException: The url is not in correct format (You have to specify Absolute URL)
