@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="com.ClassDemos.MyDate"/>
     <fullyQualifiedTypeName name="com.InheritanceDemos.Manager"/>
     <fullyQualifiedTypeName name="com.InheritanceDemos.Employee"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.ArrayAssignments.D01OddEvenCount"/>
     <fullyQualifiedTypeName name="com.AbstractDemos.Rectangle"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
@@ -21,6 +20,12 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
 </qualifiedTypeNameHistroy>

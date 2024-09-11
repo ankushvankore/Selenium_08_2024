@@ -7,11 +7,6 @@
 7. getPageSource : Will return rendered html of the page (String)
 8. findElement: Will return the control on the page (WebElement)
 
-WebElement: 
-	Interface in Selemium
-	Represents any control on the page
-
-
 
 Locators:
 	Are the way to locate any control / WebElement on the page
@@ -27,6 +22,17 @@ Locators:
 9. RelativeLocator
 
 
+WebElement: 
+	Interface in Selemium
+	Represents any control on the page
+
+Mehtods of WebElement
+1. sendKeys() : Used to enter some text in the textbox. Appends the text
+2. click() : Used to click on any control.
+
 
 Common Exceptions
 1. InvalidArgumentException: The url is not in correct format (You have to specify Absolute URL)
+2. NoSuchElementException: Selenium is unable to locate this control
+	a. Value of locatro is wrong
+	b. Value may be dynamic
