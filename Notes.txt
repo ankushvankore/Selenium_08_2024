@@ -5,7 +5,7 @@
 5. getTitle() : Will give the title of the page (String)
 6. getCurrentUrl : Will give the URL of the page (String)
 7. getPageSource : Will return rendered html of the page (String)
-8. findElement: Will return the control on the page (WebElement)
+8. findElement: Will return the control on the page. It locates first occurance (WebElement)
 
 
 Locators:
@@ -29,6 +29,7 @@ WebElement:
 Mehtods of WebElement
 1. sendKeys() : Used to enter some text in the textbox. Appends the text
 2. click() : Used to click on any control.
+3. getText() : Returns the text on any control. (String)
 
 
 Common Exceptions
@@ -36,3 +37,35 @@ Common Exceptions
 2. NoSuchElementException: Selenium is unable to locate this control
 	a. Value of locatro is wrong
 	b. Value may be dynamic
+3. InvalidSelectorException: When the value of locator is not in correct format
+
+
+
+
+CssSelector (Casceding Style Sheet)
+1. Single Attribute
+	tagName[attribute="value"]
+	input[maxlength="61"]
+2. Multiple Attributes
+	tagName[attribute1='value'][attribute2='value']
+	input[maxlength="30"][onclick="javascript:UncheckAllOptions();"]
+3. Special Characters
+	a. ^ - Starts with
+	b. $ - Ends with
+	c. * - Contains
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
