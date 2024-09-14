@@ -55,8 +55,17 @@ CssSelector (Casceding Style Sheet)
 	c. * - Contains
 
 
+XPath -> XML Path
 
+Pattankodoli Bus Stand -> Take right turn -> Hupare Nagar -> Near Water tank -> Lane no 9 -> House No 1128
 
+Types
+1. Absolute XPath
+	Starts with html
+2. Relative XPath
+	Starts with //
+	a. With reference of parent tag
+	b. With reference of control
 
 
 

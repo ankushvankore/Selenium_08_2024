@@ -11,8 +11,10 @@ public class D04GetUrl {
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		
-		String url = driver.getCurrentUrl();
-		System.out.println("URL: " + url);
+		//String url = driver.getCurrentUrl();
+		//System.out.println("URL: " + url);
+		
+		System.out.println("URL: " + driver.getCurrentUrl());
 		
 		driver.close();
 	}

@@ -14,9 +14,12 @@ public class D07LocateByClassName {
 		
 		driver.get("https://www.google.com/");
 		
-		WebElement searchBox = driver.findElement(By.className("gLFyf"));
-		searchBox.sendKeys("Funny dog images");
-		searchBox.sendKeys(Keys.ENTER);
+		//WebElement searchBox = driver.findElement(By.className("gLFyf"));
+		//searchBox.sendKeys("Funny dog images");
+		//searchBox.sendKeys(Keys.ENTER);
+		
+		driver.findElement(By.className("gLFyf")).sendKeys("Sara ali Khan");
+		driver.findElement(By.className("gLFyf")).sendKeys(Keys.ENTER);
 		
 	}
 

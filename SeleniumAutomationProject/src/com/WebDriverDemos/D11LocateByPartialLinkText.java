@@ -13,12 +13,21 @@ public class D11LocateByPartialLinkText {
 
 		driver.get("https://www.google.co.in/");
 
-		WebElement adLink = driver.findElement(By.partialLinkText("Adv"));
-		adLink.click();
+		//WebElement adLink = driver.findElement(By.partialLinkText("rtis"));
+		//adLink.click();
+		
+		driver.findElement(By.partialLinkText("rtis")).click();
 
-		String title = driver.getTitle();
+		/*String title = driver.getTitle();
 
 		if (title.contains("Google Ad"))
+			System.out.println("Test case pass");
+		else
+			System.out.println("Test case fail");
+			
+			*/
+		
+		if (driver.getTitle().contains("Google Ad"))
 			System.out.println("Test case pass");
 		else
 			System.out.println("Test case fail");
