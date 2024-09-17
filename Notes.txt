@@ -5,7 +5,8 @@
 5. getTitle() : Will give the title of the page (String)
 6. getCurrentUrl : Will give the URL of the page (String)
 7. getPageSource : Will return rendered html of the page (String)
-8. findElement: Will return the control on the page. It locates first occurance (WebElement)
+8. findElement: Will return the single control on the page. It locates first occurance (WebElement)
+9. findElements: Will return multiple controls on the page. (List<WebElement>)
 
 
 Locators:
@@ -30,6 +31,9 @@ Mehtods of WebElement
 1. sendKeys() : Used to enter some text in the textbox. Appends the text
 2. click() : Used to click on any control.
 3. getText() : Returns the text on any control. (String)
+4. isSelected() : Checks that whether the control (Checkbox / Radio button) is selected or not. (boolean)
+5. isDisplayed() : Checks that whether the control is visible or not (boolean)
+6. isEnabled() : Checks that whether the control is enable or disable (boolean)
 
 
 Common Exceptions
