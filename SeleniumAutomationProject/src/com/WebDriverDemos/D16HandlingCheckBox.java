@@ -20,8 +20,13 @@ public class D16HandlingCheckBox {
 		System.out.println("Visible : " + checkBox.isDisplayed());
 		System.out.println("Enabled : " + checkBox.isEnabled());
 		
-		if(checkBox.isSelected() == false && checkBox.isEnabled() == true)
+		//if(checkBox.isSelected() == false && checkBox.isEnabled() == true)
+			//checkBox.click();
+		
+		if(!checkBox.isSelected())
+		{
 			checkBox.click();
+		}
 		
 		System.out.println("\nAfter...");
 		System.out.println("Selected: " + checkBox.isSelected());

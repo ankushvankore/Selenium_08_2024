@@ -73,6 +73,29 @@ Types
 
 
 
+--------------------------------------------
+Handling dropdown list
+
+If the control is having tag name as <select> then only it is treated as drop down list
+
+Select class - Provided by selenium for handling drop down list / list
+
+Opertions
+1. Display name of selected country
+2. Display total no of countries
+3. Select United States
+4. Display name of selected country
+
+Methods
+1. getFirstSelectedOption() : Returns the selected element from drop down list (WebElement)
+2. getOptions() : Returns the list of all the elements from drop down list (List<WebElement>)
+3. selectByVisibleText() : 
+
+
+
+
+
+
 
 
 
