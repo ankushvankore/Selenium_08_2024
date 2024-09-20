@@ -24,12 +24,19 @@ public class D18HandlingDropDownList {
 		List<WebElement>allCountries = countries.getOptions();
 		System.out.println("Total no of countries: " + allCountries.size());
 		
+		/*int i = 0;
 		for(WebElement c : allCountries)
-			System.out.println(c.getText());
+		{
+			System.out.println(i + ". " + c.getText());
+			i++;
+		}*/
 		
+		//countries.selectByVisibleText("United States");
+		//countries.selectByValue("222");
+		countries.selectByIndex(219);
+		System.out.println("Selected Country: " + countries.getFirstSelectedOption().getText());
 		
-		
-		driver.close();
+		//driver.close();
 	}
 
 }

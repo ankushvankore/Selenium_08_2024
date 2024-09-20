@@ -78,7 +78,7 @@ Handling dropdown list
 
 If the control is having tag name as <select> then only it is treated as drop down list
 
-Select class - Provided by selenium for handling drop down list / list
+Select class - Provided by selenium for handling drop down list / list box
 
 Opertions
 1. Display name of selected country
@@ -89,12 +89,12 @@ Opertions
 Methods
 1. getFirstSelectedOption() : Returns the selected element from drop down list (WebElement)
 2. getOptions() : Returns the list of all the elements from drop down list (List<WebElement>)
-3. selectByVisibleText() : 
-
-
-
-
-
+3. selectByVisibleText() : Selects the element using the text on the option (Element)
+4. selectByValue() : Selects the element using its value attribute.
+5. selectByIndex() : Selects the element using its (zero based) index.
+6. getAllSelectedOptions() : Returns the list of all selected options. (List<WebElement>)
+7. isMultiple() : Checks that the control is dropdown list or list box. If returns true means its list box (boolean)
+8. deSelectAll() : Will deselect all selected options.
 
 
 
