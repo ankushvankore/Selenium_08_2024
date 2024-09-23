@@ -96,8 +96,23 @@ Methods
 7. isMultiple() : Checks that the control is dropdown list or list box. If returns true means its list box (boolean)
 8. deSelectAll() : Will deselect all selected options.
 
+---------------------------------------------------------------------------------------------------------------------------
 
+Synchronization (Waits in Selenium)
+	Process of adjusting speed of tool with speed of application.
 
+1. Thread.sleep() - Waits for specified time duration (in milliseconds)
+	a. Will take a mandatory delay (Pause)
+	b. Will applicable to single statement only.
+2. ImplicitWait (ImplicitlyWait)
+	a. It is applicable throughtout the script
+	b. It will not take a mandatory delay
+3. ExplicitWait (WebDriverWait)
+	a. It will not take a mandatory delay
+	b. Will applicable to single statement only.
+	c. Can be used for specific conditions as well
+4. FluentWait
+5. PageLoadTimeout
 
 
 
