@@ -112,6 +112,15 @@ Synchronization (Waits in Selenium)
 	b. Will applicable to single statement only.
 	c. Can be used for specific conditions as well
 4. FluentWait
+	a. It will not take a mandatory delay
+	b. Will applicable to single statement only.
+	c. Can be used for specific conditions as well
+	d. We can manage the specific Exception
+
+	w - withTimeout
+	i - ignoring
+	p - pollingEvery
+	u - until
 5. PageLoadTimeout
 
 
