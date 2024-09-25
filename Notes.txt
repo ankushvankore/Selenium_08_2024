@@ -122,10 +122,15 @@ Synchronization (Waits in Selenium)
 	p - pollingEvery
 	u - until
 5. PageLoadTimeout
+	Is used to add additional wait for loading the page.
 
 
+=====================================================
 
+Handling Table
 
-
+1. Display title of all columns (Headers)
+2. Display total no of rows
+3. Display any row randomly
 
 
