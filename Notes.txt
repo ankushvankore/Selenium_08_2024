@@ -42,6 +42,7 @@ Common Exceptions
 	a. Value of locatro is wrong
 	b. Value may be dynamic
 3. InvalidSelectorException: When the value of locator is not in correct format
+4. ElementClickInterceptedException: Selenium is unable to click on the element because the element is hidden by some another element
 
 
 
@@ -133,4 +134,14 @@ Handling Table
 2. Display total no of rows
 3. Display any row randomly
 
+=====================================================
 
+Handling Alerts
+
+Alert interface is used to handle alert (Javascript Alert)
+
+Methods
+
+1. driver.switchTo.alert() -> It takes you on alert
+2. getText() -> Returns the text on alert (String)
+3. accept() -> Which will click on Ok button
