@@ -36,7 +36,21 @@ public class D25HandlingAlert {
 		System.out.println(alt.getText());
 		alt.accept();
 		
+		js.executeScript("window.scrollBy(50, 400)", "");
 		
+		driver.findElement(By.id("confirmButton")).click();
+		alt = driver.switchTo().alert();
+		System.out.println(alt.getText());
+		alt.dismiss();			//Will click on Cancel button
+		System.out.println(driver.findElement(By.id("confirmResult")).getText());
+		
+		driver.findElement(By.id("promtButton")).click();
+		alt = driver.switchTo().alert();
+		System.out.println(alt.getText());
+		alt.sendKeys("Chaitrali");
+		Thread.sleep(2000);
+		alt.accept();
+		System.out.println(driver.findElement(By.id("promptResult")).getText());
 	}
 
 }

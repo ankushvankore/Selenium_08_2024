@@ -145,3 +145,11 @@ Methods
 1. driver.switchTo.alert() -> It takes you on alert
 2. getText() -> Returns the text on alert (String)
 3. accept() -> Which will click on Ok button
+4. dismiss() -> Will click on Cancel button
+5. sendKeys() -> Will enter some text on Prompt box / Input box
+
+=======================================================
+
+Handling File Uploader
+
+If the control is having type = "File" attribute, then simpally call .sendKeys() method
