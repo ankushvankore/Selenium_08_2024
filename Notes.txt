@@ -153,3 +153,39 @@ Methods
 Handling File Uploader
 
 If the control is having type = "File" attribute, then simpally call .sendKeys() method
+
+
+=======================================================
+Mouse Action
+1. Left Click
+2. Right Click
+3. Scroll
+4. Hover mouse
+5. Double Click
+6. Drag and Drop
+
+Actions is the class which is used to perform above mouse actions (Except Scroll)
+
+Methods
+1. moveToElement(): Hover the mouse on specific control
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
