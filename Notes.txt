@@ -168,6 +168,7 @@ Actions is the class which is used to perform above mouse actions (Except Scroll
 
 Methods
 1. moveToElement(): Hover the mouse on specific control
+2. contextClick(): Used to right click on a control
 
 
 

@@ -18,7 +18,8 @@ public class D31HoveringMouse {
 		
 		driver.get("https://istqb.in/");
 		
-		Actions act = new Actions(driver);
+		Actions act = new Actions(driver);	
+		//Actions class is used to handle mouse actions
 		
 		WebElement spMenu = driver.findElement(By.linkText("SPECIALIST"));
 		act.moveToElement(spMenu).perform();
