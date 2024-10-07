@@ -39,8 +39,9 @@ Mehtods of WebElement
 Common Exceptions
 1. InvalidArgumentException: The url is not in correct format (You have to specify Absolute URL)
 2. NoSuchElementException: Selenium is unable to locate this control
-	a. Value of locatro is wrong
+	a. Value of locator is wrong
 	b. Value may be dynamic
+	c. Synchronization issue
 3. InvalidSelectorException: When the value of locator is not in correct format
 4. ElementClickInterceptedException: Selenium is unable to click on the element because the element is hidden by some another element
 
@@ -169,6 +170,10 @@ Actions is the class which is used to perform above mouse actions (Except Scroll
 Methods
 1. moveToElement(): Hover the mouse on specific control
 2. contextClick(): Used to right click on a control
+3. doubleClick() :Used to double click on a control
+4. dragAndDrop() : Used to drag and drop a control on another control
+
+
 
 
 
