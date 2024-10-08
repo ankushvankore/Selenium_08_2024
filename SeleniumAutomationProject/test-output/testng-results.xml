@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-08T20:12:48 IST" name="Default suite" finished-at="2024-10-08T20:13:14 IST" duration-ms="26125">
+    <groups>
+    </groups>
+    <test started-at="2024-10-08T20:12:48 IST" name="Default test" finished-at="2024-10-08T20:13:14 IST" duration-ms="26125">
+      <class name="com.TestNGDemos.D02MultipleTests">
+        <test-method signature="testMeesho()[pri:1, instance:com.TestNGDemos.D02MultipleTests@1033576a]" started-at="2024-10-08T20:12:48 IST" name="testMeesho" finished-at="2024-10-08T20:12:54 IST" duration-ms="6235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeesho -->
+        <test-method signature="testMyntra()[pri:2, instance:com.TestNGDemos.D02MultipleTests@1033576a]" started-at="2024-10-08T20:12:54 IST" name="testMyntra" finished-at="2024-10-08T20:13:01 IST" duration-ms="6613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyntra -->
+        <test-method signature="testFlipkart()[pri:3, instance:com.TestNGDemos.D02MultipleTests@1033576a]" started-at="2024-10-08T20:13:01 IST" name="testFlipkart" finished-at="2024-10-08T20:13:07 IST" duration-ms="6249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlipkart -->
+        <test-method signature="testAmazon()[pri:4, instance:com.TestNGDemos.D02MultipleTests@1033576a]" started-at="2024-10-08T20:13:07 IST" name="testAmazon" finished-at="2024-10-08T20:13:14 IST" duration-ms="6891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazon -->
+      </class> <!-- com.TestNGDemos.D02MultipleTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -174,6 +174,41 @@ Methods
 4. dragAndDrop() : Used to drag and drop a control on another control
 
 
+===============================================================
+TestNG
+===============================================================
+
+Is one of the popular testing FRAMEWORK
+
+Framework
+Set of rules, guidelines, classes, interfaces, methods for making automation testing more easier.
+
+Advantages:
+1. Uses annotations
+2. Create collection of test cases
+3. Set the priorities
+4. Execute / Skip single / multiple test cases
+5. Create the group of test cases for execution.
+6. Generates the report
+	a. Normal report
+	b. HTML report
+7. Implement frameworks
+	a. Linear
+	b. Modular
+	c. Page Object Model (POM)
+	d. Data Driven Testing
+	e. Keyword Driven
+
+
+Annotations
+1. @Test: This method is treated as Test Case
+
+
+
+
+
+
+
 
 
 
