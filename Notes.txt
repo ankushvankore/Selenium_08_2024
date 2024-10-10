@@ -202,17 +202,59 @@ Advantages:
 
 Annotations
 1. @Test: This method is treated as Test Case
+2. @BeforeTest: This method executes only once before executing 1st test case
+3. @AfterTest: This method executes only once after executing last test case
+4. @BeforeMethod: This method get executed before every test case
+5. @AfterMethod: This method get executed after every test case
+
+BeforeTest
+	BeforeMethod
+		Test 1
+	AfterMethod
+	BeforeMethod
+		Test 2
+	AfterMethod
+	BeforeMethod
+		Test 3
+	AfterMethod
+	BeforeMethod
+		Test 4
+	AfterMethod
+AfterTest
+
+POINTS TO BE NOTED
+1. They can appear anywhere in the script
+2. They need not to be in pair
+
+Assignment
+
+1. Amazon
+2. Flipkart
+3. Myntra
+4. Meesho
 
 
+Assignment
 
+Open Flipkart
+Print Title
+Click on Mobiles and Tablets
+Print Title
 
+Open Flipkart
+Print Title
+Click on TV & Application
+Print Title
 
+Open Flipkart
+Print Title
+Click on Fashon
+Print Title
 
-
-
-
-
-
+Open Flipkart
+Print Title
+Click on Beauty
+Print Title
 
 
 
