@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "MySuite">
+	<test name = "MyTest">
+		<groups>
+			<run>
+				<!-- <include name = "Makeup"></include> -->
+				<exclude name = "Makeup"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name ="com.TestNGDemos.D05FlipkartAssignment">
+			</class>
+		</classes>
+	</test>
+</suite>

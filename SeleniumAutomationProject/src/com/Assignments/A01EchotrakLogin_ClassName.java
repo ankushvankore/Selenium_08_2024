@@ -1,6 +1,7 @@
 package com.Assignments;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,9 +17,11 @@ public class A01EchotrakLogin_ClassName {
 		WebElement userName = driver.findElement(By.className("form-control"));
 		userName.sendKeys("Chaitrali");
 		WebElement password = driver.findElement(By.id("txtPassword"));
-		password.sendKeys("chaitrali123");
+		//password.sendKeys("chaitrali123");
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].value='ankush';", password);
 		WebElement loginBtn = driver.findElement(By.className("btn-block"));
-		loginBtn.click();
+		//loginBtn.click();
 		
 		WebElement errMsg = driver.findElement(By.id("lblMsg"));
 		String msg = errMsg.getText();

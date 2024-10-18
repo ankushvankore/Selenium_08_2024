@@ -206,6 +206,7 @@ Annotations
 3. @AfterTest: This method executes only once after executing last test case
 4. @BeforeMethod: This method get executed before every test case
 5. @AfterMethod: This method get executed after every test case
+6. @DataProvider: This method sends the data to test case
 
 BeforeTest
 	BeforeMethod
@@ -256,16 +257,27 @@ Print Title
 Click on Beauty
 Print Title
 
+===========================================================
+Data Driven Testing
+===========================================================
+Execute single test case with multiple data set
+
+1. Array
+2. Excel File
+3. XML File
+
+===========================================================
+Modular Framework
+===========================================================
+1. Executing / Skipping the single / multiple tests
+2. Executing tests via XML file
 
 
 
-
-
-
-
-
-
-
+Rules for creating XML file
+1. All the tags are pre-defined
+2. You cannot change the sequence of tags
+3. All the tags are case sensetive
 
 
 

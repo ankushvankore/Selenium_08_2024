@@ -16,36 +16,36 @@ import org.testng.annotations.AfterTest;
 public class D05FlipkartAssignment {
 	WebDriver driver;
 	JavascriptExecutor js;
-	@Test(priority = 1)
+	@Test(priority = 1, groups = "Electronics")
 	public void mobiles() {
 		js.executeScript("arguments[0].click()", driver.findElement(By.partialLinkText("Mobile")));
 	}
-	@Test(priority = 2)
+	@Test(priority = 2, groups = "Electronics")
 	public void tv() {
 		js.executeScript("arguments[0].click()",driver.findElement(By.partialLinkText("TV")));
 	}
-	@Test(priority = 3)
+	@Test(priority = 3, groups = "Makeup")
 	public void fashion() {
-		js.executeScript("arguments[0].click()",driver.findElement(By.partialLinkText("Fashion")));
+		js.executeScript("arguments[0].click()",driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div[1]/div/div[1]/div/div/div/div/div[1]/div[1]/div/div/span/span[1]")));
 	}
-	@Test(priority = 4)
+	@Test(priority = 4, groups = "Makeup")
 	public void beauty() {
 		js.executeScript("arguments[0].click()",driver.findElement(By.partialLinkText("Beauty")));
 	}
 	
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void beforeMethod() {
 		driver.get("https://www.flipkart.com/");
 		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void afterMethod() {
 		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@BeforeTest
+	@BeforeTest(alwaysRun = true)
 	public void beforeTest() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -54,7 +54,7 @@ public class D05FlipkartAssignment {
 		js = (JavascriptExecutor) driver;
 	}
 
-	@AfterTest
+	@AfterTest(alwaysRun = true)
 	public void afterTest() {
 		driver.close();
 	}
