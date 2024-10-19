@@ -21,7 +21,7 @@ public class A01EchotrakLogin_ClassName {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].value='ankush';", password);
 		WebElement loginBtn = driver.findElement(By.className("btn-block"));
-		//loginBtn.click();
+		loginBtn.click();
 		
 		WebElement errMsg = driver.findElement(By.id("lblMsg"));
 		String msg = errMsg.getText();
