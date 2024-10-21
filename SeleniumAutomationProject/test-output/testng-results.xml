@@ -2,40 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-19T19:23:43 IST" name="For Parameters" finished-at="2024-10-19T19:23:57 IST" duration-ms="13550">
+  <suite started-at="2024-10-21T19:34:34 IST" name="Default suite" finished-at="2024-10-21T19:34:43 IST" duration-ms="9281">
     <groups>
     </groups>
-    <test started-at="2024-10-19T19:23:43 IST" name="MyTest" finished-at="2024-10-19T19:23:57 IST" duration-ms="13550">
-      <class name="com.TestNGDemos.D08Parameterization">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D08Parameterization@55cb6996]" started-at="2024-10-19T19:23:43 IST" name="beforeTest" finished-at="2024-10-19T19:23:46 IST" duration-ms="2589" status="PASS">
+    <test started-at="2024-10-21T19:34:34 IST" name="Default test" finished-at="2024-10-21T19:34:43 IST" duration-ms="9281">
+      <class name="com.TestNGDemos.D09KeywordDrivenFramework">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D09KeywordDrivenFramework@65f8f5ae]" started-at="2024-10-21T19:34:34 IST" name="beforeTest" finished-at="2024-10-21T19:34:41 IST" duration-ms="7737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D08Parameterization@55cb6996]" started-at="2024-10-19T19:23:46 IST" name="login" finished-at="2024-10-19T19:23:53 IST" duration-ms="7075" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[practice]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[SuperSecretPassword!]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="loginToEchotrak()[pri:0, instance:com.TestNGDemos.D09KeywordDrivenFramework@65f8f5ae]" started-at="2024-10-21T19:34:41 IST" name="loginToEchotrak" finished-at="2024-10-21T19:34:43 IST" duration-ms="1133" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D08Parameterization@55cb6996]" started-at="2024-10-19T19:23:53 IST" name="logout" finished-at="2024-10-19T19:23:56 IST" duration-ms="3438" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D08Parameterization@55cb6996]" started-at="2024-10-19T19:23:56 IST" name="afterTest" finished-at="2024-10-19T19:23:57 IST" duration-ms="351" status="PASS">
+        </test-method> <!-- loginToEchotrak -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D09KeywordDrivenFramework@65f8f5ae]" started-at="2024-10-21T19:34:43 IST" name="afterTest" finished-at="2024-10-21T19:34:43 IST" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D08Parameterization -->
-    </test> <!-- MyTest -->
-  </suite> <!-- For Parameters -->
+      </class> <!-- com.TestNGDemos.D09KeywordDrivenFramework -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

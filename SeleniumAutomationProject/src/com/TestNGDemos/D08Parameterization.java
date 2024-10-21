@@ -18,7 +18,8 @@ public class D08Parameterization {
 	
 	@Parameters({"userName", "password"})	//It will read the values of these parameters
 	@Test
-	public void login(String un, String ps) //The values of the parameters will get stored in these arguments
+	public void login(String un, String ps) 
+	//The values of the parameters will get stored in these arguments
 	{
 		driver.findElement(By.xpath("//input[@id='username']")).sendKeys(un);
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys(ps);

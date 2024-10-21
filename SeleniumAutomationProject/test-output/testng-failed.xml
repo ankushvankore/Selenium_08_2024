@@ -10,8 +10,11 @@
     <classes>
       <class name="com.TestNGDemos.D05FlipkartAssignment">
         <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
           <include name="fashion"/>
-          <include name="beauty"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.TestNGDemos.D05FlipkartAssignment -->
     </classes>
